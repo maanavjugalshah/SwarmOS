@@ -1,0 +1,26 @@
+[0.016s] Invoking command in '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf -- -j16 -l16
+[0.114s] [35m[1mConsolidate compiler generated dependencies of target ekf_node[0m
+[0.137s] [ 50%] [32mBuilding CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o[0m
+[16.054s] [100%] [32m[1mLinking CXX executable ekf_node[0m
+[17.158s] [100%] Built target ekf_node
+[17.169s] Invoked command in '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf -- -j16 -l16
+[17.185s] Invoking command in '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf
+[17.203s] -- Install configuration: ""
+[17.204s] -- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/lib/swarm_ekf/ekf_node
+[17.208s] -- Set runtime path of "/home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/lib/swarm_ekf/ekf_node" to ""
+[17.209s] -- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/ament_index/resource_index/package_run_dependencies/swarm_ekf
+[17.209s] -- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/ament_index/resource_index/parent_prefix_path/swarm_ekf
+[17.209s] -- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/environment/ament_prefix_path.sh
+[17.210s] -- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/environment/ament_prefix_path.dsv
+[17.210s] -- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/environment/path.sh
+[17.210s] -- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/environment/path.dsv
+[17.210s] -- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/local_setup.bash
+[17.210s] -- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/local_setup.sh
+[17.210s] -- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/local_setup.zsh
+[17.211s] -- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/local_setup.dsv
+[17.211s] -- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/package.dsv
+[17.211s] -- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/ament_index/resource_index/packages/swarm_ekf
+[17.212s] -- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/cmake/swarm_ekfConfig.cmake
+[17.212s] -- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/cmake/swarm_ekfConfig-version.cmake
+[17.212s] -- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/package.xml
+[17.215s] Invoked command in '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf
