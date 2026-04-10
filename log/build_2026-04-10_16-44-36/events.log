@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.000547] (swarm_ekf) JobQueued: {'identifier': 'swarm_ekf', 'dependencies': OrderedDict()}
+[0.001208] (swarm_ekf) JobStarted: {'identifier': 'swarm_ekf'}
+[0.018864] (swarm_ekf) JobProgress: {'identifier': 'swarm_ekf', 'progress': 'cmake'}
+[0.021720] (swarm_ekf) JobProgress: {'identifier': 'swarm_ekf', 'progress': 'build'}
+[0.022546] (swarm_ekf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf', '--', '-j16', '-l16'], 'cwd': '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maanavjugalshah'), ('GIT_ASKPASS', '/home/maanavjugalshah/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maanavjugalshah/swarm_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maanavjugalshah'), ('OLDPWD', '/home/maanavjugalshah/swarm_aero_ws'), ('TERM_PROGRAM_VERSION', '1.115.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-296e8e71-aa9d-4f04-bd68-9df82c0ccfcd.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/maanavjugalshah/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/maanavjugalshah/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maanavjugalshah/swarm_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maanavjugalshah'), ('NAME', 'MaanavXPS13Plus'), ('WSL_INTEROP', '/run/WSL/533_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/maanavjugalshah/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/maanavjugalshah/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/maanavjugalshah/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/bin/remote-cli:/home/maanavjugalshah/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/maana/AppData/Local/Programs/Microsoft VS Code:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/7-Zip:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/maana/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/maana/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/maana/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/oss-winget.gperf_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1985d14186.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/maanavjugalshah/swarm_ws/install/swarm_control:/home/maanavjugalshah/swarm_ws/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maanavjugalshah/swarm_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maanavjugalshah/swarm_ws/install/swarm_control:/home/maanavjugalshah/swarm_ws/install/px4_msgs:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[0.102536] (-) TimerEvent: {}
+[0.179894] (swarm_ekf) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ekf_node\x1b[0m\n'}
+[0.203734] (-) TimerEvent: {}
+[0.261523] (swarm_ekf) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o\x1b[0m\n'}
+[0.306234] (-) TimerEvent: {}
+[0.407443] (-) TimerEvent: {}
+[0.508107] (-) TimerEvent: {}
+[0.611633] (-) TimerEvent: {}
+[0.713347] (-) TimerEvent: {}
+[0.817116] (-) TimerEvent: {}
+[0.920743] (-) TimerEvent: {}
+[1.024487] (-) TimerEvent: {}
+[1.128196] (-) TimerEvent: {}
+[1.231986] (-) TimerEvent: {}
+[1.335767] (-) TimerEvent: {}
+[1.439481] (-) TimerEvent: {}
+[1.540615] (-) TimerEvent: {}
+[1.644481] (-) TimerEvent: {}
+[1.748215] (-) TimerEvent: {}
+[1.851922] (-) TimerEvent: {}
+[1.955688] (-) TimerEvent: {}
+[2.059534] (-) TimerEvent: {}
+[2.163256] (-) TimerEvent: {}
+[2.266986] (-) TimerEvent: {}
+[2.369805] (-) TimerEvent: {}
+[2.473577] (-) TimerEvent: {}
+[2.577360] (-) TimerEvent: {}
+[2.681052] (-) TimerEvent: {}
+[2.784820] (-) TimerEvent: {}
+[2.888637] (-) TimerEvent: {}
+[2.992538] (-) TimerEvent: {}
+[3.096335] (-) TimerEvent: {}
+[3.200337] (-) TimerEvent: {}
+[3.304215] (-) TimerEvent: {}
+[3.407922] (-) TimerEvent: {}
+[3.511766] (-) TimerEvent: {}
+[3.615621] (-) TimerEvent: {}
+[3.719368] (-) TimerEvent: {}
+[3.823300] (-) TimerEvent: {}
+[3.923971] (-) TimerEvent: {}
+[4.026768] (-) TimerEvent: {}
+[4.130667] (-) TimerEvent: {}
+[4.234560] (-) TimerEvent: {}
+[4.338209] (-) TimerEvent: {}
+[4.439948] (-) TimerEvent: {}
+[4.543577] (-) TimerEvent: {}
+[4.647281] (-) TimerEvent: {}
+[4.751188] (-) TimerEvent: {}
+[4.855020] (-) TimerEvent: {}
+[4.958698] (-) TimerEvent: {}
+[5.062599] (-) TimerEvent: {}
+[5.166495] (-) TimerEvent: {}
+[5.270275] (-) TimerEvent: {}
+[5.373971] (-) TimerEvent: {}
+[5.477754] (-) TimerEvent: {}
+[5.580256] (-) TimerEvent: {}
+[5.682189] (-) TimerEvent: {}
+[5.785924] (-) TimerEvent: {}
+[5.889365] (-) TimerEvent: {}
+[5.992946] (-) TimerEvent: {}
+[6.094661] (-) TimerEvent: {}
+[6.198315] (-) TimerEvent: {}
+[6.302100] (-) TimerEvent: {}
+[6.405750] (-) TimerEvent: {}
+[6.509481] (-) TimerEvent: {}
+[6.613511] (-) TimerEvent: {}
+[6.717391] (-) TimerEvent: {}
+[6.821131] (-) TimerEvent: {}
+[6.924922] (-) TimerEvent: {}
+[7.028820] (-) TimerEvent: {}
+[7.132792] (-) TimerEvent: {}
+[7.237106] (-) TimerEvent: {}
+[7.340739] (-) TimerEvent: {}
+[7.444575] (-) TimerEvent: {}
+[7.548265] (-) TimerEvent: {}
+[7.652028] (-) TimerEvent: {}
+[7.755721] (-) TimerEvent: {}
+[7.859593] (-) TimerEvent: {}
+[7.963453] (-) TimerEvent: {}
+[8.064030] (-) TimerEvent: {}
+[8.167604] (-) TimerEvent: {}
+[8.270889] (-) TimerEvent: {}
+[8.374642] (-) TimerEvent: {}
+[8.477899] (-) TimerEvent: {}
+[8.581422] (-) TimerEvent: {}
+[8.685115] (-) TimerEvent: {}
+[8.788813] (-) TimerEvent: {}
+[8.892521] (-) TimerEvent: {}
+[8.996285] (-) TimerEvent: {}
+[9.098599] (-) TimerEvent: {}
+[9.202241] (-) TimerEvent: {}
+[9.305876] (-) TimerEvent: {}
+[9.409541] (-) TimerEvent: {}
+[9.513209] (-) TimerEvent: {}
+[9.617089] (-) TimerEvent: {}
+[9.720857] (-) TimerEvent: {}
+[9.823935] (-) TimerEvent: {}
+[9.927730] (-) TimerEvent: {}
+[10.031605] (-) TimerEvent: {}
+[10.135603] (-) TimerEvent: {}
+[10.243625] (-) TimerEvent: {}
+[10.352147] (-) TimerEvent: {}
+[10.460448] (-) TimerEvent: {}
+[10.563470] (-) TimerEvent: {}
+[10.671540] (-) TimerEvent: {}
+[10.779566] (-) TimerEvent: {}
+[10.882065] (-) TimerEvent: {}
+[10.989535] (-) TimerEvent: {}
+[11.091866] (-) TimerEvent: {}
+[11.199206] (-) TimerEvent: {}
+[11.306945] (-) TimerEvent: {}
+[11.415162] (-) TimerEvent: {}
+[11.522939] (-) TimerEvent: {}
+[11.627874] (-) TimerEvent: {}
+[11.738683] (-) TimerEvent: {}
+[11.849566] (-) TimerEvent: {}
+[11.960366] (-) TimerEvent: {}
+[12.071122] (-) TimerEvent: {}
+[12.181768] (-) TimerEvent: {}
+[12.292403] (-) TimerEvent: {}
+[12.402502] (-) TimerEvent: {}
+[12.512258] (-) TimerEvent: {}
+[12.622846] (-) TimerEvent: {}
+[12.733484] (-) TimerEvent: {}
+[12.844253] (-) TimerEvent: {}
+[12.955007] (-) TimerEvent: {}
+[13.065716] (-) TimerEvent: {}
+[13.176338] (-) TimerEvent: {}
+[13.287066] (-) TimerEvent: {}
+[13.393030] (-) TimerEvent: {}
+[13.502763] (-) TimerEvent: {}
+[13.611504] (-) TimerEvent: {}
+[13.719042] (-) TimerEvent: {}
+[13.826659] (-) TimerEvent: {}
+[13.934258] (-) TimerEvent: {}
+[14.042043] (-) TimerEvent: {}
+[14.147038] (-) TimerEvent: {}
+[14.254450] (-) TimerEvent: {}
+[14.361934] (-) TimerEvent: {}
+[14.465468] (-) TimerEvent: {}
+[14.572795] (-) TimerEvent: {}
+[14.680367] (-) TimerEvent: {}
+[14.787787] (-) TimerEvent: {}
+[14.894865] (-) TimerEvent: {}
+[15.001954] (-) TimerEvent: {}
+[15.109584] (-) TimerEvent: {}
+[15.216979] (-) TimerEvent: {}
+[15.324380] (-) TimerEvent: {}
+[15.430175] (-) TimerEvent: {}
+[15.537177] (-) TimerEvent: {}
+[15.645075] (-) TimerEvent: {}
+[15.752626] (-) TimerEvent: {}
+[15.860310] (-) TimerEvent: {}
+[15.968085] (-) TimerEvent: {}
+[16.075659] (-) TimerEvent: {}
+[16.183245] (-) TimerEvent: {}
+[16.291049] (-) TimerEvent: {}
+[16.395390] (-) TimerEvent: {}
+[16.503294] (-) TimerEvent: {}
+[16.604622] (-) TimerEvent: {}
+[16.711799] (-) TimerEvent: {}
+[16.816000] (-) TimerEvent: {}
+[16.923200] (-) TimerEvent: {}
+[17.031108] (-) TimerEvent: {}
+[17.137123] (-) TimerEvent: {}
+[17.244730] (-) TimerEvent: {}
+[17.352700] (-) TimerEvent: {}
+[17.460925] (-) TimerEvent: {}
+[17.568269] (-) TimerEvent: {}
+[17.675892] (-) TimerEvent: {}
+[17.783391] (-) TimerEvent: {}
+[17.891054] (-) TimerEvent: {}
+[17.998384] (-) TimerEvent: {}
+[18.106546] (-) TimerEvent: {}
+[18.159712] (swarm_ekf) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ekf_node\x1b[0m\n'}
+[18.211388] (-) TimerEvent: {}
+[18.314277] (-) TimerEvent: {}
+[18.424010] (-) TimerEvent: {}
+[18.528621] (-) TimerEvent: {}
+[18.632965] (-) TimerEvent: {}
+[18.737239] (-) TimerEvent: {}
+[18.837996] (-) TimerEvent: {}
+[18.942117] (-) TimerEvent: {}
+[19.044553] (-) TimerEvent: {}
+[19.147400] (-) TimerEvent: {}
+[19.163881] (swarm_ekf) StdoutLine: {'line': b'[100%] Built target ekf_node\n'}
+[19.187158] (swarm_ekf) CommandEnded: {'returncode': 0}
+[19.189709] (swarm_ekf) JobProgress: {'identifier': 'swarm_ekf', 'progress': 'install'}
+[19.203312] (swarm_ekf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf'], 'cwd': '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maanavjugalshah'), ('GIT_ASKPASS', '/home/maanavjugalshah/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maanavjugalshah/swarm_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maanavjugalshah'), ('OLDPWD', '/home/maanavjugalshah/swarm_aero_ws'), ('TERM_PROGRAM_VERSION', '1.115.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-296e8e71-aa9d-4f04-bd68-9df82c0ccfcd.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/maanavjugalshah/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/maanavjugalshah/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maanavjugalshah/swarm_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maanavjugalshah'), ('NAME', 'MaanavXPS13Plus'), ('WSL_INTEROP', '/run/WSL/533_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/maanavjugalshah/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/maanavjugalshah/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/maanavjugalshah/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/bin/remote-cli:/home/maanavjugalshah/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/maana/AppData/Local/Programs/Microsoft VS Code:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/7-Zip:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/maana/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/maana/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/maana/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/oss-winget.gperf_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1985d14186.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/maanavjugalshah/swarm_ws/install/swarm_control:/home/maanavjugalshah/swarm_ws/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maanavjugalshah/swarm_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maanavjugalshah/swarm_ws/install/swarm_control:/home/maanavjugalshah/swarm_ws/install/px4_msgs:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[19.216359] (swarm_ekf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.217977] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/lib/swarm_ekf/ekf_node\n'}
+[19.226574] (swarm_ekf) StdoutLine: {'line': b'-- Set runtime path of "/home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/lib/swarm_ekf/ekf_node" to ""\n'}
+[19.227146] (swarm_ekf) StdoutLine: {'line': b'-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/ament_index/resource_index/package_run_dependencies/swarm_ekf\n'}
+[19.227592] (swarm_ekf) StdoutLine: {'line': b'-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/ament_index/resource_index/parent_prefix_path/swarm_ekf\n'}
+[19.227815] (swarm_ekf) StdoutLine: {'line': b'-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/environment/ament_prefix_path.sh\n'}
+[19.227953] (swarm_ekf) StdoutLine: {'line': b'-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/environment/ament_prefix_path.dsv\n'}
+[19.228508] (swarm_ekf) StdoutLine: {'line': b'-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/environment/path.sh\n'}
+[19.228634] (swarm_ekf) StdoutLine: {'line': b'-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/environment/path.dsv\n'}
+[19.228718] (swarm_ekf) StdoutLine: {'line': b'-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/local_setup.bash\n'}
+[19.229061] (swarm_ekf) StdoutLine: {'line': b'-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/local_setup.sh\n'}
+[19.229293] (swarm_ekf) StdoutLine: {'line': b'-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/local_setup.zsh\n'}
+[19.229412] (swarm_ekf) StdoutLine: {'line': b'-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/local_setup.dsv\n'}
+[19.229494] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/package.dsv\n'}
+[19.229573] (swarm_ekf) StdoutLine: {'line': b'-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/ament_index/resource_index/packages/swarm_ekf\n'}
+[19.229650] (swarm_ekf) StdoutLine: {'line': b'-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/cmake/swarm_ekfConfig.cmake\n'}
+[19.230110] (swarm_ekf) StdoutLine: {'line': b'-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/cmake/swarm_ekfConfig-version.cmake\n'}
+[19.230364] (swarm_ekf) StdoutLine: {'line': b'-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/package.xml\n'}
+[19.233153] (swarm_ekf) CommandEnded: {'returncode': 0}
+[19.248336] (-) TimerEvent: {}
+[19.293053] (swarm_ekf) JobEnded: {'identifier': 'swarm_ekf', 'rc': 0}
+[19.295175] (-) EventReactorShutdown: {}
