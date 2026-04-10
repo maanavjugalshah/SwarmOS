@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target ekf_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o[0m
+[01m[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:[m[K In member function ‘[01m[Kvoid QuaternionEKF::imu_callback(px4_msgs::msg::SensorCombined_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:45:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kaccel_corrected[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   45 |     Vector3d [01;35m[Kaccel_corrected[m[K = accel - x_.segment<3>(13);
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:1[m[K:
+[01m[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:[m[K In member function ‘[01m[Kvoid QuaternionEKF::gps_callback(px4_msgs::msg::SensorGps_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:53:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct px4_msgs::msg::SensorGps_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::SensorGps_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kalt[m[K’
+   53 |     RCLCPP_DEBUG(this->get_logger(), "GPS received - alt: %d", msg->[01;31m[Kalt[m[K);
+      |                                                                     [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/ekf_node.dir/build.make:76: CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

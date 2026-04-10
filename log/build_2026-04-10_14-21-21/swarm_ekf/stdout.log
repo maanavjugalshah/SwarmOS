@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target ekf_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ekf_node[0m
+[100%] Built target ekf_node
+-- Install configuration: ""
+-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/lib/swarm_ekf/ekf_node
+-- Set runtime path of "/home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/lib/swarm_ekf/ekf_node" to ""
+-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/ament_index/resource_index/package_run_dependencies/swarm_ekf
+-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/ament_index/resource_index/parent_prefix_path/swarm_ekf
+-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/environment/ament_prefix_path.sh
+-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/environment/path.sh
+-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/environment/path.dsv
+-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/local_setup.bash
+-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/local_setup.sh
+-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/local_setup.zsh
+-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/local_setup.dsv
+-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/package.dsv
+-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/ament_index/resource_index/packages/swarm_ekf
+-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/cmake/swarm_ekfConfig.cmake
+-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/cmake/swarm_ekfConfig-version.cmake
+-- Up-to-date: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/package.xml

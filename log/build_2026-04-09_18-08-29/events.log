@@ -1,0 +1,340 @@
+[0.000000] (-) TimerEvent: {}
+[0.000542] (swarm_ekf) JobQueued: {'identifier': 'swarm_ekf', 'dependencies': OrderedDict()}
+[0.000671] (swarm_ekf) JobStarted: {'identifier': 'swarm_ekf'}
+[0.010685] (swarm_ekf) JobProgress: {'identifier': 'swarm_ekf', 'progress': 'cmake'}
+[0.011777] (swarm_ekf) Command: {'cmd': ['/usr/bin/cmake', '/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf', '-DCMAKE_INSTALL_PREFIX=/home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf'], 'cwd': '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maanavjugalshah'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maanavjugalshah/swarm_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maanavjugalshah'), ('OLDPWD', '/home/maanavjugalshah/swarm_aero_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maanavjugalshah/swarm_aero_ws/install:/home/maanavjugalshah/swarm_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maanavjugalshah'), ('NAME', 'MaanavXPS13Plus'), ('WSL_INTEROP', '/run/WSL/9805_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/maanavjugalshah/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/7-Zip:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/maana/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/maana/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/maana/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/oss-winget.gperf_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/'), ('WT_SESSION', '8ee2f2e0-d4ee-4991-b5a3-fd758c43a10e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/maanavjugalshah/swarm_ws/install/swarm_control:/home/maanavjugalshah/swarm_ws/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maanavjugalshah/swarm_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maanavjugalshah/swarm_ws/install/swarm_control:/home/maanavjugalshah/swarm_ws/install/px4_msgs:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.098536] (-) TimerEvent: {}
+[0.198877] (-) TimerEvent: {}
+[0.299411] (-) TimerEvent: {}
+[0.400005] (-) TimerEvent: {}
+[0.460629] (swarm_ekf) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500132] (-) TimerEvent: {}
+[0.600518] (-) TimerEvent: {}
+[0.700843] (-) TimerEvent: {}
+[0.801173] (-) TimerEvent: {}
+[0.901477] (-) TimerEvent: {}
+[1.002039] (-) TimerEvent: {}
+[1.102643] (-) TimerEvent: {}
+[1.202979] (-) TimerEvent: {}
+[1.303981] (-) TimerEvent: {}
+[1.404755] (-) TimerEvent: {}
+[1.505106] (-) TimerEvent: {}
+[1.605534] (-) TimerEvent: {}
+[1.706156] (-) TimerEvent: {}
+[1.795178] (swarm_ekf) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.806318] (-) TimerEvent: {}
+[1.906775] (-) TimerEvent: {}
+[2.007359] (-) TimerEvent: {}
+[2.107880] (-) TimerEvent: {}
+[2.208241] (-) TimerEvent: {}
+[2.308752] (-) TimerEvent: {}
+[2.409442] (-) TimerEvent: {}
+[2.510034] (-) TimerEvent: {}
+[2.610576] (-) TimerEvent: {}
+[2.711193] (-) TimerEvent: {}
+[2.811881] (-) TimerEvent: {}
+[2.912258] (-) TimerEvent: {}
+[3.012897] (-) TimerEvent: {}
+[3.089468] (swarm_ekf) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.113253] (-) TimerEvent: {}
+[3.214109] (-) TimerEvent: {}
+[3.314739] (-) TimerEvent: {}
+[3.415339] (-) TimerEvent: {}
+[3.516083] (-) TimerEvent: {}
+[3.604687] (swarm_ekf) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.616417] (-) TimerEvent: {}
+[3.632413] (swarm_ekf) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.635162] (swarm_ekf) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.636221] (swarm_ekf) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.644351] (swarm_ekf) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.716578] (-) TimerEvent: {}
+[3.817019] (-) TimerEvent: {}
+[3.917577] (-) TimerEvent: {}
+[4.018108] (-) TimerEvent: {}
+[4.107560] (swarm_ekf) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.118324] (-) TimerEvent: {}
+[4.123194] (swarm_ekf) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.123697] (swarm_ekf) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.124277] (swarm_ekf) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.131913] (swarm_ekf) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.218616] (-) TimerEvent: {}
+[4.319254] (-) TimerEvent: {}
+[4.375822] (swarm_ekf) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.419379] (-) TimerEvent: {}
+[4.519825] (-) TimerEvent: {}
+[4.529508] (swarm_ekf) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.620045] (-) TimerEvent: {}
+[4.720366] (-) TimerEvent: {}
+[4.820679] (-) TimerEvent: {}
+[4.921073] (-) TimerEvent: {}
+[4.937508] (swarm_ekf) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.944357] (swarm_ekf) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.958578] (swarm_ekf) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.978751] (swarm_ekf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.004718] (swarm_ekf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.021247] (-) TimerEvent: {}
+[5.094844] (swarm_ekf) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.100806] (swarm_ekf) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.121518] (-) TimerEvent: {}
+[5.221890] (-) TimerEvent: {}
+[5.322329] (-) TimerEvent: {}
+[5.422800] (-) TimerEvent: {}
+[5.523154] (-) TimerEvent: {}
+[5.623556] (-) TimerEvent: {}
+[5.723950] (-) TimerEvent: {}
+[5.824519] (-) TimerEvent: {}
+[5.925054] (-) TimerEvent: {}
+[6.025506] (-) TimerEvent: {}
+[6.126001] (-) TimerEvent: {}
+[6.226601] (-) TimerEvent: {}
+[6.327337] (-) TimerEvent: {}
+[6.427960] (-) TimerEvent: {}
+[6.528398] (-) TimerEvent: {}
+[6.629003] (-) TimerEvent: {}
+[6.729693] (-) TimerEvent: {}
+[6.830205] (-) TimerEvent: {}
+[6.930782] (-) TimerEvent: {}
+[7.031175] (-) TimerEvent: {}
+[7.131532] (-) TimerEvent: {}
+[7.231971] (-) TimerEvent: {}
+[7.332754] (-) TimerEvent: {}
+[7.433269] (-) TimerEvent: {}
+[7.533812] (-) TimerEvent: {}
+[7.634295] (-) TimerEvent: {}
+[7.734854] (-) TimerEvent: {}
+[7.835371] (-) TimerEvent: {}
+[7.935861] (-) TimerEvent: {}
+[8.036289] (-) TimerEvent: {}
+[8.136835] (-) TimerEvent: {}
+[8.237460] (-) TimerEvent: {}
+[8.338610] (-) TimerEvent: {}
+[8.439169] (-) TimerEvent: {}
+[8.539939] (-) TimerEvent: {}
+[8.641044] (-) TimerEvent: {}
+[8.741770] (-) TimerEvent: {}
+[8.842561] (-) TimerEvent: {}
+[8.943515] (-) TimerEvent: {}
+[9.044125] (-) TimerEvent: {}
+[9.144706] (-) TimerEvent: {}
+[9.245092] (-) TimerEvent: {}
+[9.345495] (-) TimerEvent: {}
+[9.445992] (-) TimerEvent: {}
+[9.546627] (-) TimerEvent: {}
+[9.596769] (swarm_ekf) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[9.647202] (-) TimerEvent: {}
+[9.747889] (-) TimerEvent: {}
+[9.848799] (-) TimerEvent: {}
+[9.949420] (-) TimerEvent: {}
+[10.050020] (-) TimerEvent: {}
+[10.150706] (-) TimerEvent: {}
+[10.252237] (-) TimerEvent: {}
+[10.353037] (-) TimerEvent: {}
+[10.453528] (-) TimerEvent: {}
+[10.554269] (-) TimerEvent: {}
+[10.655022] (-) TimerEvent: {}
+[10.755430] (-) TimerEvent: {}
+[10.856020] (-) TimerEvent: {}
+[10.956918] (-) TimerEvent: {}
+[11.057848] (-) TimerEvent: {}
+[11.158350] (-) TimerEvent: {}
+[11.258703] (-) TimerEvent: {}
+[11.359004] (-) TimerEvent: {}
+[11.459370] (-) TimerEvent: {}
+[11.559795] (-) TimerEvent: {}
+[11.660309] (-) TimerEvent: {}
+[11.760900] (-) TimerEvent: {}
+[11.861242] (-) TimerEvent: {}
+[11.961714] (-) TimerEvent: {}
+[12.062321] (-) TimerEvent: {}
+[12.163281] (-) TimerEvent: {}
+[12.263911] (-) TimerEvent: {}
+[12.364476] (-) TimerEvent: {}
+[12.465044] (-) TimerEvent: {}
+[12.565516] (-) TimerEvent: {}
+[12.666226] (-) TimerEvent: {}
+[12.766878] (-) TimerEvent: {}
+[12.867996] (-) TimerEvent: {}
+[12.968607] (-) TimerEvent: {}
+[13.069231] (-) TimerEvent: {}
+[13.169811] (-) TimerEvent: {}
+[13.270222] (-) TimerEvent: {}
+[13.370751] (-) TimerEvent: {}
+[13.471286] (-) TimerEvent: {}
+[13.571777] (-) TimerEvent: {}
+[13.672327] (-) TimerEvent: {}
+[13.772866] (-) TimerEvent: {}
+[13.873194] (-) TimerEvent: {}
+[13.973613] (-) TimerEvent: {}
+[14.074153] (-) TimerEvent: {}
+[14.174705] (-) TimerEvent: {}
+[14.209125] (swarm_ekf) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[14.275000] (-) TimerEvent: {}
+[14.375523] (-) TimerEvent: {}
+[14.475851] (-) TimerEvent: {}
+[14.576177] (-) TimerEvent: {}
+[14.676537] (-) TimerEvent: {}
+[14.776947] (-) TimerEvent: {}
+[14.877330] (-) TimerEvent: {}
+[14.978151] (-) TimerEvent: {}
+[15.078732] (-) TimerEvent: {}
+[15.179385] (-) TimerEvent: {}
+[15.280211] (-) TimerEvent: {}
+[15.380898] (-) TimerEvent: {}
+[15.481547] (-) TimerEvent: {}
+[15.581916] (-) TimerEvent: {}
+[15.682421] (-) TimerEvent: {}
+[15.783035] (-) TimerEvent: {}
+[15.883430] (-) TimerEvent: {}
+[15.983783] (-) TimerEvent: {}
+[16.084210] (-) TimerEvent: {}
+[16.184717] (-) TimerEvent: {}
+[16.285039] (-) TimerEvent: {}
+[16.385620] (-) TimerEvent: {}
+[16.486219] (-) TimerEvent: {}
+[16.586913] (-) TimerEvent: {}
+[16.687397] (-) TimerEvent: {}
+[16.787736] (-) TimerEvent: {}
+[16.888112] (-) TimerEvent: {}
+[16.988474] (-) TimerEvent: {}
+[17.089258] (-) TimerEvent: {}
+[17.190424] (-) TimerEvent: {}
+[17.291438] (-) TimerEvent: {}
+[17.391861] (-) TimerEvent: {}
+[17.492442] (-) TimerEvent: {}
+[17.592998] (-) TimerEvent: {}
+[17.693487] (-) TimerEvent: {}
+[17.794733] (-) TimerEvent: {}
+[17.895805] (-) TimerEvent: {}
+[17.996338] (-) TimerEvent: {}
+[18.096798] (-) TimerEvent: {}
+[18.197426] (-) TimerEvent: {}
+[18.298068] (-) TimerEvent: {}
+[18.398763] (-) TimerEvent: {}
+[18.499769] (-) TimerEvent: {}
+[18.600455] (-) TimerEvent: {}
+[18.701062] (-) TimerEvent: {}
+[18.801686] (-) TimerEvent: {}
+[18.902171] (-) TimerEvent: {}
+[19.002972] (-) TimerEvent: {}
+[19.103851] (-) TimerEvent: {}
+[19.204417] (-) TimerEvent: {}
+[19.305197] (-) TimerEvent: {}
+[19.406180] (-) TimerEvent: {}
+[19.507196] (-) TimerEvent: {}
+[19.607815] (-) TimerEvent: {}
+[19.708244] (-) TimerEvent: {}
+[19.808977] (-) TimerEvent: {}
+[19.909655] (-) TimerEvent: {}
+[20.009983] (-) TimerEvent: {}
+[20.110596] (-) TimerEvent: {}
+[20.211405] (-) TimerEvent: {}
+[20.311996] (-) TimerEvent: {}
+[20.412552] (-) TimerEvent: {}
+[20.513158] (-) TimerEvent: {}
+[20.613705] (-) TimerEvent: {}
+[20.714222] (-) TimerEvent: {}
+[20.814688] (-) TimerEvent: {}
+[20.915710] (-) TimerEvent: {}
+[21.016206] (-) TimerEvent: {}
+[21.116939] (-) TimerEvent: {}
+[21.217762] (-) TimerEvent: {}
+[21.318317] (-) TimerEvent: {}
+[21.419239] (-) TimerEvent: {}
+[21.519987] (-) TimerEvent: {}
+[21.620348] (-) TimerEvent: {}
+[21.720790] (-) TimerEvent: {}
+[21.821280] (-) TimerEvent: {}
+[21.921820] (-) TimerEvent: {}
+[22.022474] (-) TimerEvent: {}
+[22.124035] (-) TimerEvent: {}
+[22.224705] (-) TimerEvent: {}
+[22.325392] (-) TimerEvent: {}
+[22.426013] (-) TimerEvent: {}
+[22.526343] (-) TimerEvent: {}
+[22.626955] (-) TimerEvent: {}
+[22.727640] (-) TimerEvent: {}
+[22.828217] (-) TimerEvent: {}
+[22.928814] (-) TimerEvent: {}
+[23.029265] (-) TimerEvent: {}
+[23.129972] (-) TimerEvent: {}
+[23.230950] (-) TimerEvent: {}
+[23.331634] (-) TimerEvent: {}
+[23.432074] (-) TimerEvent: {}
+[23.532688] (-) TimerEvent: {}
+[23.633368] (-) TimerEvent: {}
+[23.733722] (-) TimerEvent: {}
+[23.834108] (-) TimerEvent: {}
+[23.934518] (-) TimerEvent: {}
+[24.035448] (-) TimerEvent: {}
+[24.136178] (-) TimerEvent: {}
+[24.236508] (-) TimerEvent: {}
+[24.337048] (-) TimerEvent: {}
+[24.393421] (swarm_ekf) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[24.432333] (swarm_ekf) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[24.437254] (-) TimerEvent: {}
+[24.537906] (-) TimerEvent: {}
+[24.638332] (-) TimerEvent: {}
+[24.738988] (-) TimerEvent: {}
+[24.839669] (-) TimerEvent: {}
+[24.865096] (swarm_ekf) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[24.865879] (swarm_ekf) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[24.939986] (-) TimerEvent: {}
+[25.040532] (-) TimerEvent: {}
+[25.140918] (-) TimerEvent: {}
+[25.241465] (-) TimerEvent: {}
+[25.299029] (swarm_ekf) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[25.300640] (swarm_ekf) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[25.341619] (-) TimerEvent: {}
+[25.424337] (swarm_ekf) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/home/maanavjugalshah/swarm_ws/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[25.441941] (-) TimerEvent: {}
+[25.472300] (swarm_ekf) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[25.542080] (-) TimerEvent: {}
+[25.599000] (swarm_ekf) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[25.601592] (swarm_ekf) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/include>\n'}
+[25.601736] (swarm_ekf) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[25.606411] (swarm_ekf) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[25.610409] (swarm_ekf) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[25.610815] (swarm_ekf) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[25.618819] (swarm_ekf) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[25.625336] (swarm_ekf) StdoutLine: {'line': b'-- Configuring done\n'}
+[25.642416] (-) TimerEvent: {}
+[25.670772] (swarm_ekf) StdoutLine: {'line': b'-- Generating done\n'}
+[25.684108] (swarm_ekf) StdoutLine: {'line': b'-- Build files have been written to: /home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf\n'}
+[25.709703] (swarm_ekf) CommandEnded: {'returncode': 0}
+[25.711782] (swarm_ekf) JobProgress: {'identifier': 'swarm_ekf', 'progress': 'build'}
+[25.716857] (swarm_ekf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf', '--', '-j16', '-l16'], 'cwd': '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maanavjugalshah'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maanavjugalshah/swarm_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maanavjugalshah'), ('OLDPWD', '/home/maanavjugalshah/swarm_aero_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maanavjugalshah/swarm_aero_ws/install:/home/maanavjugalshah/swarm_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maanavjugalshah'), ('NAME', 'MaanavXPS13Plus'), ('WSL_INTEROP', '/run/WSL/9805_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/maanavjugalshah/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/7-Zip:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/maana/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/maana/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/maana/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/oss-winget.gperf_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/'), ('WT_SESSION', '8ee2f2e0-d4ee-4991-b5a3-fd758c43a10e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/maanavjugalshah/swarm_ws/install/swarm_control:/home/maanavjugalshah/swarm_ws/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maanavjugalshah/swarm_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maanavjugalshah/swarm_ws/install/swarm_control:/home/maanavjugalshah/swarm_ws/install/px4_msgs:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[25.742587] (-) TimerEvent: {}
+[25.826734] (swarm_ekf) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o\x1b[0m\n'}
+[25.842758] (-) TimerEvent: {}
+[25.914995] (swarm_ekf) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ekf_node\x1b[0m\n'}
+[25.943050] (-) TimerEvent: {}
+[26.043666] (-) TimerEvent: {}
+[26.144349] (-) TimerEvent: {}
+[26.244892] (-) TimerEvent: {}
+[26.345362] (-) TimerEvent: {}
+[26.392913] (swarm_ekf) StdoutLine: {'line': b'[100%] Built target ekf_node\n'}
+[26.409848] (swarm_ekf) CommandEnded: {'returncode': 0}
+[26.413579] (swarm_ekf) JobProgress: {'identifier': 'swarm_ekf', 'progress': 'install'}
+[26.429255] (swarm_ekf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf'], 'cwd': '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maanavjugalshah'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maanavjugalshah/swarm_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maanavjugalshah'), ('OLDPWD', '/home/maanavjugalshah/swarm_aero_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maanavjugalshah/swarm_aero_ws/install:/home/maanavjugalshah/swarm_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maanavjugalshah'), ('NAME', 'MaanavXPS13Plus'), ('WSL_INTEROP', '/run/WSL/9805_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/maanavjugalshah/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/7-Zip:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/maana/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/maana/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/maana/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/oss-winget.gperf_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/'), ('WT_SESSION', '8ee2f2e0-d4ee-4991-b5a3-fd758c43a10e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/maanavjugalshah/swarm_ws/install/swarm_control:/home/maanavjugalshah/swarm_ws/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maanavjugalshah/swarm_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maanavjugalshah/swarm_ws/install/swarm_control:/home/maanavjugalshah/swarm_ws/install/px4_msgs:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[26.445674] (-) TimerEvent: {}
+[26.456640] (swarm_ekf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.458526] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/lib/swarm_ekf/ekf_node\n'}
+[26.460137] (swarm_ekf) StdoutLine: {'line': b'-- Set runtime path of "/home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/lib/swarm_ekf/ekf_node" to ""\n'}
+[26.462416] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/ament_index/resource_index/package_run_dependencies/swarm_ekf\n'}
+[26.464289] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/ament_index/resource_index/parent_prefix_path/swarm_ekf\n'}
+[26.465705] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/environment/ament_prefix_path.sh\n'}
+[26.467032] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/environment/ament_prefix_path.dsv\n'}
+[26.467797] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/environment/path.sh\n'}
+[26.468456] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/environment/path.dsv\n'}
+[26.468960] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/local_setup.bash\n'}
+[26.470163] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/local_setup.sh\n'}
+[26.470540] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/local_setup.zsh\n'}
+[26.470930] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/local_setup.dsv\n'}
+[26.471673] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/package.dsv\n'}
+[26.472949] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/ament_index/resource_index/packages/swarm_ekf\n'}
+[26.473809] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/cmake/swarm_ekfConfig.cmake\n'}
+[26.474282] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/cmake/swarm_ekfConfig-version.cmake\n'}
+[26.474580] (swarm_ekf) StdoutLine: {'line': b'-- Installing: /home/maanavjugalshah/swarm_aero_ws/install/swarm_ekf/share/swarm_ekf/package.xml\n'}
+[26.480686] (swarm_ekf) CommandEnded: {'returncode': 0}
+[26.522285] (swarm_ekf) JobEnded: {'identifier': 'swarm_ekf', 'rc': 0}
+[26.524077] (-) EventReactorShutdown: {}

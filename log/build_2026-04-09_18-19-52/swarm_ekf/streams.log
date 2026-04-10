@@ -1,0 +1,52 @@
+[0.023s] Invoking command in '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf -- -j16 -l16
+[0.152s] [ 50%] [32mBuilding CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o[0m
+[6.188s] [01m[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:[m[K In constructor ‘[01m[KQuaternionEKF::QuaternionEKF()[m[K’:
+[6.188s] [01m[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:28:57:[m[K [01;31m[Kerror: [m[K‘[01m[KVehicleGpsPosition[m[K’ is not a member of ‘[01m[Kpx4_msgs::msg[m[K’
+[6.188s]    28 |     gps_sub_ = this->create_subscription<px4_msgs::msg::[01;31m[KVehicleGpsPosition[m[K>(
+[6.189s]       |                                                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.192s] [01m[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:28:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQuaternionEKF::create_subscription<<expression error> >(const char [19], rclcpp::SensorDataQoS, std::_Bind_helper<false, void (QuaternionEKF::*)(std::shared_ptr<px4_msgs::msg::SensorGps_<std::allocator<void> > >), QuaternionEKF*, const std::_Placeholder<1>&>::type)[m[K’
+[6.192s]    28 |     gps_sub_ = [01;31m[Kthis->create_subscription<px4_msgs::msg::VehicleGpsPosition>([m[K
+[6.192s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.192s]    29 | [01;31m[K      "/fmu/out/sensorgps", rclcpp::SensorDataQoS(),[m[K
+[6.193s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                        
+[6.193s]    30 | [01;31m[K      std::bind(&QuaternionEKF::gps_callback, this, std::placeholders::_1))[m[K;
+[6.193s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K 
+[6.193s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[6.194s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.194s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.194s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.194s]                  from [01m[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:1[m[K:
+[6.194s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[6.194s]    92 | [01;36m[KNode[m[K::create_subscription(
+[6.194s]       | [01;36m[K^~~~[m[K
+[6.194s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.194s] [01m[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:28:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.194s]    28 |     gps_sub_ = [01;31m[Kthis->create_subscription<px4_msgs::msg::VehicleGpsPosition>([m[K
+[6.194s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.195s]    29 | [01;31m[K      "/fmu/out/sensorgps", rclcpp::SensorDataQoS(),[m[K
+[6.195s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                        
+[6.195s]    30 | [01;31m[K      std::bind(&QuaternionEKF::gps_callback, this, std::placeholders::_1))[m[K;
+[6.195s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K 
+[6.264s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.264s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.265s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.265s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.265s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.265s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.265s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.265s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.265s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.265s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.266s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.266s]                  from [01m[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:1[m[K:
+[6.266s] [01m[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:[m[K In member function ‘[01m[Kvoid QuaternionEKF::gps_callback(px4_msgs::msg::SensorGps_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.266s] [01m[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:59:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct px4_msgs::msg::SensorGps_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::SensorGps_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klat[m[K’
+[6.266s]    59 |       msg->[01;31m[Klat[m[K, msg->lon);
+[6.266s]       |            [01;31m[K^~~[m[K
+[6.266s] [01m[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:59:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct px4_msgs::msg::SensorGps_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::SensorGps_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klon[m[K’
+[6.266s]    59 |       msg->lat, msg->[01;31m[Klon[m[K);
+[6.266s]       |                      [01;31m[K^~~[m[K
+[10.490s] gmake[2]: *** [CMakeFiles/ekf_node.dir/build.make:76: CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o] Error 1
+[10.490s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_node.dir/all] Error 2
+[10.490s] gmake: *** [Makefile:146: all] Error 2
+[10.494s] Invoked command in '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf -- -j16 -l16

@@ -1,0 +1,2 @@
+Invoking command in '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf -- -j16 -l16
+Invoked command in '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf -- -j16 -l16

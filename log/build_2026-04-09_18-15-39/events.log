@@ -1,0 +1,262 @@
+[0.000000] (-) TimerEvent: {}
+[0.000678] (swarm_ekf) JobQueued: {'identifier': 'swarm_ekf', 'dependencies': OrderedDict()}
+[0.000729] (swarm_ekf) JobStarted: {'identifier': 'swarm_ekf'}
+[0.009396] (swarm_ekf) JobProgress: {'identifier': 'swarm_ekf', 'progress': 'cmake'}
+[0.010174] (swarm_ekf) JobProgress: {'identifier': 'swarm_ekf', 'progress': 'build'}
+[0.011342] (swarm_ekf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf', '--', '-j16', '-l16'], 'cwd': '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maanavjugalshah'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maanavjugalshah/swarm_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maanavjugalshah'), ('OLDPWD', '/home/maanavjugalshah/swarm_aero_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maanavjugalshah/swarm_aero_ws/install:/home/maanavjugalshah/swarm_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maanavjugalshah'), ('NAME', 'MaanavXPS13Plus'), ('WSL_INTEROP', '/run/WSL/9805_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/maanavjugalshah/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/7-Zip:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/maana/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/maana/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/maana/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/oss-winget.gperf_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/'), ('WT_SESSION', '8ee2f2e0-d4ee-4991-b5a3-fd758c43a10e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/maanavjugalshah/swarm_ws/install/swarm_control:/home/maanavjugalshah/swarm_ws/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maanavjugalshah/swarm_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maanavjugalshah/swarm_ws/install/swarm_control:/home/maanavjugalshah/swarm_ws/install/px4_msgs:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.047995] (swarm_ekf) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.098569] (-) TimerEvent: {}
+[0.199000] (-) TimerEvent: {}
+[0.299648] (-) TimerEvent: {}
+[0.400300] (-) TimerEvent: {}
+[0.500700] (-) TimerEvent: {}
+[0.581346] (swarm_ekf) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.583458] (swarm_ekf) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.590029] (swarm_ekf) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.599659] (swarm_ekf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600857] (-) TimerEvent: {}
+[0.611478] (swarm_ekf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.641702] (swarm_ekf) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.643207] (swarm_ekf) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700984] (-) TimerEvent: {}
+[0.801355] (-) TimerEvent: {}
+[0.901910] (-) TimerEvent: {}
+[1.002759] (-) TimerEvent: {}
+[1.103377] (-) TimerEvent: {}
+[1.203805] (-) TimerEvent: {}
+[1.304394] (-) TimerEvent: {}
+[1.404972] (-) TimerEvent: {}
+[1.505643] (-) TimerEvent: {}
+[1.606247] (-) TimerEvent: {}
+[1.707230] (-) TimerEvent: {}
+[1.808390] (-) TimerEvent: {}
+[1.908967] (-) TimerEvent: {}
+[2.009414] (-) TimerEvent: {}
+[2.109817] (-) TimerEvent: {}
+[2.210417] (-) TimerEvent: {}
+[2.310903] (-) TimerEvent: {}
+[2.411566] (-) TimerEvent: {}
+[2.512024] (-) TimerEvent: {}
+[2.612676] (-) TimerEvent: {}
+[2.713285] (-) TimerEvent: {}
+[2.813762] (-) TimerEvent: {}
+[2.914427] (-) TimerEvent: {}
+[3.015145] (-) TimerEvent: {}
+[3.115839] (-) TimerEvent: {}
+[3.216575] (-) TimerEvent: {}
+[3.317383] (-) TimerEvent: {}
+[3.418049] (-) TimerEvent: {}
+[3.518485] (-) TimerEvent: {}
+[3.618920] (-) TimerEvent: {}
+[3.719320] (-) TimerEvent: {}
+[3.819829] (-) TimerEvent: {}
+[3.920609] (-) TimerEvent: {}
+[4.021653] (-) TimerEvent: {}
+[4.122126] (-) TimerEvent: {}
+[4.222498] (-) TimerEvent: {}
+[4.322982] (-) TimerEvent: {}
+[4.423447] (-) TimerEvent: {}
+[4.524014] (-) TimerEvent: {}
+[4.624585] (-) TimerEvent: {}
+[4.725532] (-) TimerEvent: {}
+[4.826222] (-) TimerEvent: {}
+[4.927028] (-) TimerEvent: {}
+[5.028016] (-) TimerEvent: {}
+[5.128658] (-) TimerEvent: {}
+[5.229127] (-) TimerEvent: {}
+[5.329508] (-) TimerEvent: {}
+[5.429935] (-) TimerEvent: {}
+[5.530432] (-) TimerEvent: {}
+[5.631015] (-) TimerEvent: {}
+[5.731521] (-) TimerEvent: {}
+[5.832077] (-) TimerEvent: {}
+[5.932700] (-) TimerEvent: {}
+[6.033538] (-) TimerEvent: {}
+[6.134234] (-) TimerEvent: {}
+[6.235281] (-) TimerEvent: {}
+[6.338351] (-) TimerEvent: {}
+[6.439305] (-) TimerEvent: {}
+[6.539757] (-) TimerEvent: {}
+[6.640439] (-) TimerEvent: {}
+[6.740948] (-) TimerEvent: {}
+[6.841492] (-) TimerEvent: {}
+[6.942093] (-) TimerEvent: {}
+[7.042686] (-) TimerEvent: {}
+[7.143473] (-) TimerEvent: {}
+[7.244212] (-) TimerEvent: {}
+[7.344765] (-) TimerEvent: {}
+[7.445277] (-) TimerEvent: {}
+[7.545971] (-) TimerEvent: {}
+[7.646663] (-) TimerEvent: {}
+[7.747305] (-) TimerEvent: {}
+[7.848143] (-) TimerEvent: {}
+[7.948763] (-) TimerEvent: {}
+[8.049247] (-) TimerEvent: {}
+[8.149722] (-) TimerEvent: {}
+[8.250176] (-) TimerEvent: {}
+[8.350715] (-) TimerEvent: {}
+[8.451168] (-) TimerEvent: {}
+[8.551557] (-) TimerEvent: {}
+[8.652615] (-) TimerEvent: {}
+[8.753974] (-) TimerEvent: {}
+[8.854428] (-) TimerEvent: {}
+[8.954882] (-) TimerEvent: {}
+[9.055608] (-) TimerEvent: {}
+[9.156431] (-) TimerEvent: {}
+[9.257082] (-) TimerEvent: {}
+[9.357700] (-) TimerEvent: {}
+[9.458355] (-) TimerEvent: {}
+[9.559073] (-) TimerEvent: {}
+[9.659723] (-) TimerEvent: {}
+[9.760053] (-) TimerEvent: {}
+[9.860615] (-) TimerEvent: {}
+[9.961150] (-) TimerEvent: {}
+[10.061475] (-) TimerEvent: {}
+[10.161810] (-) TimerEvent: {}
+[10.262208] (-) TimerEvent: {}
+[10.362741] (-) TimerEvent: {}
+[10.463076] (-) TimerEvent: {}
+[10.563649] (-) TimerEvent: {}
+[10.664462] (-) TimerEvent: {}
+[10.765337] (-) TimerEvent: {}
+[10.865816] (-) TimerEvent: {}
+[10.966652] (-) TimerEvent: {}
+[11.067421] (-) TimerEvent: {}
+[11.167741] (-) TimerEvent: {}
+[11.268036] (-) TimerEvent: {}
+[11.368667] (-) TimerEvent: {}
+[11.469126] (-) TimerEvent: {}
+[11.569615] (-) TimerEvent: {}
+[11.670067] (-) TimerEvent: {}
+[11.770594] (-) TimerEvent: {}
+[11.871315] (-) TimerEvent: {}
+[11.971968] (-) TimerEvent: {}
+[12.072518] (-) TimerEvent: {}
+[12.173082] (-) TimerEvent: {}
+[12.273522] (-) TimerEvent: {}
+[12.374008] (-) TimerEvent: {}
+[12.474480] (-) TimerEvent: {}
+[12.575026] (-) TimerEvent: {}
+[12.675634] (-) TimerEvent: {}
+[12.776049] (-) TimerEvent: {}
+[12.876804] (-) TimerEvent: {}
+[12.977534] (-) TimerEvent: {}
+[13.078219] (-) TimerEvent: {}
+[13.178852] (-) TimerEvent: {}
+[13.280409] (-) TimerEvent: {}
+[13.381273] (-) TimerEvent: {}
+[13.481788] (-) TimerEvent: {}
+[13.582124] (-) TimerEvent: {}
+[13.682567] (-) TimerEvent: {}
+[13.783121] (-) TimerEvent: {}
+[13.883671] (-) TimerEvent: {}
+[13.984129] (-) TimerEvent: {}
+[14.084826] (-) TimerEvent: {}
+[14.185441] (-) TimerEvent: {}
+[14.285938] (-) TimerEvent: {}
+[14.386438] (-) TimerEvent: {}
+[14.486952] (-) TimerEvent: {}
+[14.587607] (-) TimerEvent: {}
+[14.688090] (-) TimerEvent: {}
+[14.788767] (-) TimerEvent: {}
+[14.889547] (-) TimerEvent: {}
+[14.990051] (-) TimerEvent: {}
+[15.090465] (-) TimerEvent: {}
+[15.191603] (-) TimerEvent: {}
+[15.292684] (-) TimerEvent: {}
+[15.393380] (-) TimerEvent: {}
+[15.494240] (-) TimerEvent: {}
+[15.594873] (-) TimerEvent: {}
+[15.695369] (-) TimerEvent: {}
+[15.795843] (-) TimerEvent: {}
+[15.897124] (-) TimerEvent: {}
+[15.997657] (-) TimerEvent: {}
+[16.098263] (-) TimerEvent: {}
+[16.198887] (-) TimerEvent: {}
+[16.299250] (-) TimerEvent: {}
+[16.399726] (-) TimerEvent: {}
+[16.500583] (-) TimerEvent: {}
+[16.601422] (-) TimerEvent: {}
+[16.702084] (-) TimerEvent: {}
+[16.802455] (-) TimerEvent: {}
+[16.903001] (-) TimerEvent: {}
+[17.003740] (-) TimerEvent: {}
+[17.104516] (-) TimerEvent: {}
+[17.204884] (-) TimerEvent: {}
+[17.305239] (-) TimerEvent: {}
+[17.405615] (-) TimerEvent: {}
+[17.506490] (-) TimerEvent: {}
+[17.607408] (-) TimerEvent: {}
+[17.708651] (-) TimerEvent: {}
+[17.809825] (-) TimerEvent: {}
+[17.911065] (-) TimerEvent: {}
+[18.011714] (-) TimerEvent: {}
+[18.112391] (-) TimerEvent: {}
+[18.213020] (-) TimerEvent: {}
+[18.313396] (-) TimerEvent: {}
+[18.413927] (-) TimerEvent: {}
+[18.514630] (-) TimerEvent: {}
+[18.615269] (-) TimerEvent: {}
+[18.716338] (-) TimerEvent: {}
+[18.816983] (-) TimerEvent: {}
+[18.917530] (-) TimerEvent: {}
+[19.018285] (-) TimerEvent: {}
+[19.119029] (-) TimerEvent: {}
+[19.219575] (-) TimerEvent: {}
+[19.319933] (-) TimerEvent: {}
+[19.420418] (-) TimerEvent: {}
+[19.521045] (-) TimerEvent: {}
+[19.621755] (-) TimerEvent: {}
+[19.722422] (-) TimerEvent: {}
+[19.822959] (-) TimerEvent: {}
+[19.923910] (-) TimerEvent: {}
+[20.024572] (-) TimerEvent: {}
+[20.125020] (-) TimerEvent: {}
+[20.225745] (-) TimerEvent: {}
+[20.326719] (-) TimerEvent: {}
+[20.427515] (-) TimerEvent: {}
+[20.528190] (-) TimerEvent: {}
+[20.629154] (-) TimerEvent: {}
+[20.729921] (-) TimerEvent: {}
+[20.830785] (-) TimerEvent: {}
+[20.931452] (-) TimerEvent: {}
+[21.031941] (-) TimerEvent: {}
+[21.132770] (-) TimerEvent: {}
+[21.233787] (-) TimerEvent: {}
+[21.334607] (-) TimerEvent: {}
+[21.435389] (-) TimerEvent: {}
+[21.536195] (-) TimerEvent: {}
+[21.636777] (-) TimerEvent: {}
+[21.737493] (-) TimerEvent: {}
+[21.839017] (-) TimerEvent: {}
+[21.939661] (-) TimerEvent: {}
+[22.040368] (-) TimerEvent: {}
+[22.141056] (-) TimerEvent: {}
+[22.241632] (-) TimerEvent: {}
+[22.318360] (swarm_ekf) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[22.341888] (-) TimerEvent: {}
+[22.387935] (swarm_ekf) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/home/maanavjugalshah/swarm_ws/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[22.442117] (-) TimerEvent: {}
+[22.542733] (-) TimerEvent: {}
+[22.575214] (swarm_ekf) StdoutLine: {'line': b'-- Configuring done\n'}
+[22.593526] (swarm_ekf) StdoutLine: {'line': b'-- Generating done\n'}
+[22.601817] (swarm_ekf) StdoutLine: {'line': b'-- Build files have been written to: /home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf\n'}
+[22.642198] (swarm_ekf) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ekf_node\x1b[0m\n'}
+[22.642991] (-) TimerEvent: {}
+[22.657717] (swarm_ekf) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o\x1b[0m\n'}
+[22.743230] (-) TimerEvent: {}
+[22.843926] (-) TimerEvent: {}
+[22.944683] (-) TimerEvent: {}
+[23.046103] (-) TimerEvent: {}
+[23.146678] (-) TimerEvent: {}
+[23.247096] (-) TimerEvent: {}
+[23.266266] (swarm_ekf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kpx4_msgs/msg/vehicle_gps_position.hpp: No such file or directory\n'}
+[23.266621] (swarm_ekf) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K<px4_msgs/msg/vehicle_gps_position.hpp>\x1b[m\x1b[K\n'}
+[23.266789] (swarm_ekf) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.266936] (swarm_ekf) StderrLine: {'line': b'compilation terminated.\n'}
+[23.268772] (swarm_ekf) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ekf_node.dir/build.make:76: CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o] Error 1\n'}
+[23.269262] (swarm_ekf) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_node.dir/all] Error 2\n'}
+[23.269725] (swarm_ekf) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[23.272174] (swarm_ekf) CommandEnded: {'returncode': 2}
+[23.285699] (swarm_ekf) JobEnded: {'identifier': 'swarm_ekf', 'rc': 2}
+[23.296805] (-) EventReactorShutdown: {}

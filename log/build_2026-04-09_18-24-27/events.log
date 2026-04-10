@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.001102] (swarm_ekf) JobQueued: {'identifier': 'swarm_ekf', 'dependencies': OrderedDict()}
+[0.001201] (swarm_ekf) JobStarted: {'identifier': 'swarm_ekf'}
+[0.014942] (swarm_ekf) JobProgress: {'identifier': 'swarm_ekf', 'progress': 'cmake'}
+[0.017982] (swarm_ekf) JobProgress: {'identifier': 'swarm_ekf', 'progress': 'build'}
+[0.018140] (swarm_ekf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf', '--', '-j16', '-l16'], 'cwd': '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maanavjugalshah'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maanavjugalshah/swarm_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maanavjugalshah'), ('OLDPWD', '/home/maanavjugalshah/swarm_aero_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maanavjugalshah/swarm_aero_ws/install:/home/maanavjugalshah/swarm_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maanavjugalshah'), ('NAME', 'MaanavXPS13Plus'), ('WSL_INTEROP', '/run/WSL/9805_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/maanavjugalshah/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/7-Zip:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/maana/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/maana/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/maana/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/oss-winget.gperf_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin:/mnt/c/Users/maana/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/'), ('WT_SESSION', '8ee2f2e0-d4ee-4991-b5a3-fd758c43a10e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/maanavjugalshah/swarm_ws/install/swarm_control:/home/maanavjugalshah/swarm_ws/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maanavjugalshah/swarm_aero_ws/build/swarm_ekf'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maanavjugalshah/swarm_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maanavjugalshah/swarm_ws/install/swarm_control:/home/maanavjugalshah/swarm_ws/install/px4_msgs:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.098032] (-) TimerEvent: {}
+[0.104500] (swarm_ekf) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ekf_node\x1b[0m\n'}
+[0.134774] (swarm_ekf) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o\x1b[0m\n'}
+[0.198170] (-) TimerEvent: {}
+[0.298719] (-) TimerEvent: {}
+[0.399212] (-) TimerEvent: {}
+[0.499534] (-) TimerEvent: {}
+[0.599960] (-) TimerEvent: {}
+[0.700304] (-) TimerEvent: {}
+[0.800686] (-) TimerEvent: {}
+[0.901045] (-) TimerEvent: {}
+[1.001469] (-) TimerEvent: {}
+[1.102253] (-) TimerEvent: {}
+[1.202751] (-) TimerEvent: {}
+[1.303115] (-) TimerEvent: {}
+[1.403484] (-) TimerEvent: {}
+[1.503983] (-) TimerEvent: {}
+[1.604748] (-) TimerEvent: {}
+[1.705105] (-) TimerEvent: {}
+[1.805465] (-) TimerEvent: {}
+[1.905954] (-) TimerEvent: {}
+[2.006559] (-) TimerEvent: {}
+[2.107213] (-) TimerEvent: {}
+[2.208067] (-) TimerEvent: {}
+[2.308623] (-) TimerEvent: {}
+[2.408939] (-) TimerEvent: {}
+[2.509293] (-) TimerEvent: {}
+[2.609762] (-) TimerEvent: {}
+[2.710192] (-) TimerEvent: {}
+[2.810555] (-) TimerEvent: {}
+[2.910897] (-) TimerEvent: {}
+[3.011254] (-) TimerEvent: {}
+[3.111834] (-) TimerEvent: {}
+[3.212691] (-) TimerEvent: {}
+[3.313214] (-) TimerEvent: {}
+[3.413659] (-) TimerEvent: {}
+[3.514172] (-) TimerEvent: {}
+[3.614568] (-) TimerEvent: {}
+[3.714968] (-) TimerEvent: {}
+[3.815357] (-) TimerEvent: {}
+[3.915835] (-) TimerEvent: {}
+[4.016143] (-) TimerEvent: {}
+[4.116554] (-) TimerEvent: {}
+[4.217128] (-) TimerEvent: {}
+[4.318012] (-) TimerEvent: {}
+[4.418739] (-) TimerEvent: {}
+[4.519281] (-) TimerEvent: {}
+[4.620182] (-) TimerEvent: {}
+[4.720821] (-) TimerEvent: {}
+[4.821199] (-) TimerEvent: {}
+[4.830289] (swarm_ekf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.830576] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.830691] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.830778] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.830968] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.831847] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.832009] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.832138] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.832262] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.832372] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.832426] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.832470] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.832513] (swarm_ekf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KQuaternionEKF::QuaternionEKF()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.832556] (swarm_ekf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:20:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.832600] (swarm_ekf) StderrLine: {'line': b'   20 |   \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K->latitude_deg, msg->longitude_deg, msg->altitude_msl_m);\n'}
+[4.832641] (swarm_ekf) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.832683] (swarm_ekf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:20:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[4.832725] (swarm_ekf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[4.832767] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[4.832807] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[4.832847] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:33\x1b[m\x1b[K,\n'}
+[4.832887] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[4.832927] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.832967] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.833007] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.833047] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.833085] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.833124] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.833163] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.833203] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.833243] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.833283] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.833332] (swarm_ekf) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.833453] (swarm_ekf) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.833519] (swarm_ekf) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.833573] (swarm_ekf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[4.833634] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[4.833700] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30\x1b[m\x1b[K,\n'}
+[4.833766] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[4.833826] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[4.833995] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.834057] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.834102] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.834144] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.834187] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.834230] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.834290] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.834357] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.834424] (swarm_ekf) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.834492] (swarm_ekf) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.834553] (swarm_ekf) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.834613] (swarm_ekf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:24\x1b[m\x1b[K,\n'}
+[4.834656] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[4.834718] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[4.834778] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[4.834838] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[4.834894] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[4.834934] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.834972] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.835043] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.835115] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.835165] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.835208] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.835250] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.835289] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.835333] (swarm_ekf) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.835376] (swarm_ekf) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.835477] (swarm_ekf) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.835523] (swarm_ekf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maanavjugalshah/swarm_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/sensor_combined.hpp:7\x1b[m\x1b[K,\n'}
+[4.835581] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:2\x1b[m\x1b[K:\n'}
+[4.835623] (swarm_ekf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maanavjugalshah/swarm_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/sensor_combined__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.835673] (swarm_ekf) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.835712] (swarm_ekf) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.909254] (swarm_ekf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.909583] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.909732] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.909863] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.909987] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.910106] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.910223] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.910336] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.910479] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.910607] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.910722] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.910834] (swarm_ekf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.911054] (swarm_ekf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid QuaternionEKF::gps_callback(px4_msgs::msg::SensorGps_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.911135] (swarm_ekf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:54:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct px4_msgs::msg::SensorGps_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::SensorGps_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kalt\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.911191] (swarm_ekf) StderrLine: {'line': b'   54 |     RCLCPP_DEBUG(this->get_logger(), "GPS received - alt: %d", msg->\x1b[01;31m\x1b[Kalt\x1b[m\x1b[K);\n'}
+[4.911235] (swarm_ekf) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.921356] (-) TimerEvent: {}
+[5.021754] (-) TimerEvent: {}
+[5.122133] (-) TimerEvent: {}
+[5.222520] (-) TimerEvent: {}
+[5.322985] (-) TimerEvent: {}
+[5.423899] (-) TimerEvent: {}
+[5.524743] (-) TimerEvent: {}
+[5.625220] (-) TimerEvent: {}
+[5.725703] (-) TimerEvent: {}
+[5.826934] (-) TimerEvent: {}
+[5.927611] (-) TimerEvent: {}
+[6.028417] (-) TimerEvent: {}
+[6.128965] (-) TimerEvent: {}
+[6.229504] (-) TimerEvent: {}
+[6.330103] (-) TimerEvent: {}
+[6.430475] (-) TimerEvent: {}
+[6.530858] (-) TimerEvent: {}
+[6.631455] (-) TimerEvent: {}
+[6.732186] (-) TimerEvent: {}
+[6.832894] (-) TimerEvent: {}
+[6.933545] (-) TimerEvent: {}
+[7.033951] (-) TimerEvent: {}
+[7.134442] (-) TimerEvent: {}
+[7.235009] (-) TimerEvent: {}
+[7.335504] (-) TimerEvent: {}
+[7.436014] (-) TimerEvent: {}
+[7.536650] (-) TimerEvent: {}
+[7.637339] (-) TimerEvent: {}
+[7.737985] (-) TimerEvent: {}
+[7.838863] (-) TimerEvent: {}
+[7.939319] (-) TimerEvent: {}
+[8.039675] (-) TimerEvent: {}
+[8.140023] (-) TimerEvent: {}
+[8.240557] (-) TimerEvent: {}
+[8.341181] (-) TimerEvent: {}
+[8.441981] (-) TimerEvent: {}
+[8.542811] (-) TimerEvent: {}
+[8.643448] (-) TimerEvent: {}
+[8.744077] (-) TimerEvent: {}
+[8.844771] (-) TimerEvent: {}
+[8.945401] (-) TimerEvent: {}
+[9.046173] (-) TimerEvent: {}
+[9.147058] (-) TimerEvent: {}
+[9.248044] (-) TimerEvent: {}
+[9.348924] (-) TimerEvent: {}
+[9.449658] (-) TimerEvent: {}
+[9.550321] (-) TimerEvent: {}
+[9.651080] (-) TimerEvent: {}
+[9.751598] (-) TimerEvent: {}
+[9.852103] (-) TimerEvent: {}
+[9.952725] (-) TimerEvent: {}
+[10.053466] (-) TimerEvent: {}
+[10.154270] (-) TimerEvent: {}
+[10.254855] (-) TimerEvent: {}
+[10.355413] (-) TimerEvent: {}
+[10.455929] (-) TimerEvent: {}
+[10.556478] (-) TimerEvent: {}
+[10.657087] (-) TimerEvent: {}
+[10.693690] (swarm_ekf) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ekf_node.dir/build.make:76: CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o] Error 1\n'}
+[10.694346] (swarm_ekf) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_node.dir/all] Error 2\n'}
+[10.694804] (swarm_ekf) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.698644] (swarm_ekf) CommandEnded: {'returncode': 2}
+[10.713998] (swarm_ekf) JobEnded: {'identifier': 'swarm_ekf', 'rc': 2}
+[10.724938] (-) EventReactorShutdown: {}

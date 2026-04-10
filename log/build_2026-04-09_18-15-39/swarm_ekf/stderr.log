@@ -1,0 +1,7 @@
+[01m[K/home/maanavjugalshah/swarm_aero_ws/src/swarm_ekf/src/ekf_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kpx4_msgs/msg/vehicle_gps_position.hpp: No such file or directory
+    3 | #include [01;31m[K<px4_msgs/msg/vehicle_gps_position.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ekf_node.dir/build.make:76: CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
